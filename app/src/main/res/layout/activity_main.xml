@@ -84,10 +84,13 @@
         android:id="@+id/redrectangle"
         android:layout_width="800dp"
         android:layout_height="161dp"
-        android:src="@drawable/rectangle_8"
+        android:background="@drawable/group_23"
+        android:src="@drawable/group_23"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="1dp" />
+        app:srcCompat="@drawable/group_23"
+        tools:layout_editor_absoluteY="1dp"
+        tools:srcCompat="@drawable/group_23" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
