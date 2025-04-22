@@ -22,90 +22,105 @@
 
     <RadioButton
         android:id="@+id/radioButton1"
+        style="@style/Widget.Material3.CompoundButton.CheckBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="56dp"
         android:layout_marginTop="40dp"
+        android:layout_marginEnd="49dp"
         android:text="Bottled Water "
+        app:layout_constraintEnd_toStartOf="@+id/radioButton7"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView10"
-        style="@style/Widget.Material3.CompoundButton.CheckBox"/>
+        app:layout_constraintTop_toBottomOf="@+id/imageView10" />
 
     <RadioButton
         android:id="@+id/radioButton3"
+        style="@style/Widget.Material3.CompoundButton.CheckBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="56dp"
         android:layout_marginTop="20dp"
+        android:layout_marginEnd="81dp"
         android:text="Batteries"
+        app:layout_constraintEnd_toStartOf="@+id/radioButton8"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/radioButton2"
-        style="@style/Widget.Material3.CompoundButton.CheckBox"/>
+        app:layout_constraintTop_toBottomOf="@+id/radioButton2" />
 
     <RadioButton
         android:id="@+id/radioButton4"
+        style="@style/Widget.Material3.CompoundButton.CheckBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="56dp"
         android:layout_marginTop="20dp"
+        android:layout_marginEnd="63dp"
         android:text="Disinfectant"
+        app:layout_constraintEnd_toStartOf="@+id/radioButton10"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/radioButton3"
-        style="@style/Widget.Material3.CompoundButton.CheckBox"/>
+        app:layout_constraintTop_toBottomOf="@+id/radioButton3" />
 
     <RadioButton
         android:id="@+id/radioButton5"
+        style="@style/Widget.Material3.CompoundButton.CheckBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="56dp"
         android:layout_marginTop="20dp"
+        android:layout_marginEnd="65dp"
         android:text="First Aid Kit"
+        app:layout_constraintEnd_toStartOf="@+id/radioButton11"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/radioButton4"
-        style="@style/Widget.Material3.CompoundButton.CheckBox"/>
+        app:layout_constraintTop_toBottomOf="@+id/radioButton4" />
 
     <RadioButton
         android:id="@+id/radioButton6"
+        style="@style/Widget.Material3.CompoundButton.CheckBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="56dp"
         android:layout_marginTop="20dp"
+        android:layout_marginEnd="188dp"
         android:text="72 Hour Food Supply"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/radioButton5"
-        style="@style/Widget.Material3.CompoundButton.CheckBox"/>
+        app:layout_constraintTop_toBottomOf="@+id/radioButton5" />
 
     <RadioButton
         android:id="@+id/radioButton12"
+        style="@style/Widget.Material3.CompoundButton.CheckBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="56dp"
         android:layout_marginTop="20dp"
+        android:layout_marginEnd="171dp"
         android:text=" Communication Device"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/radioButton6"
-        style="@style/Widget.Material3.CompoundButton.CheckBox"/>
+        app:layout_constraintTop_toBottomOf="@+id/radioButton6" />
 
     <RadioButton
         android:id="@+id/radioButton2"
+        style="@style/Widget.Material3.CompoundButton.CheckBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="56dp"
         android:layout_marginTop="20dp"
+        android:layout_marginEnd="77dp"
         android:text="Flashlight"
+        app:layout_constraintEnd_toStartOf="@+id/radioButton9"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/radioButton1"
-        style="@style/Widget.Material3.CompoundButton.CheckBox"/>
+        app:layout_constraintTop_toBottomOf="@+id/radioButton1" />
 
     <RadioButton
         android:id="@+id/radioButton7"
+        style="@style/Widget.Material3.CompoundButton.CheckBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
+        android:layout_marginEnd="103dp"
         android:text="Whistle"
-        app:layout_constraintTop_toBottomOf="@+id/imageView10"
-        tools:layout_editor_absoluteX="228dp"
-        style="@style/Widget.Material3.CompoundButton.CheckBox"/>
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10" />
 
     <RadioButton
         android:id="@+id/radioButton8"
@@ -119,32 +134,35 @@
 
     <RadioButton
         android:id="@+id/radioButton10"
+        style="@style/Widget.Material3.CompoundButton.CheckBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        android:layout_marginEnd="76dp"
         android:text="Local Maps"
-        app:layout_constraintTop_toBottomOf="@+id/radioButton8"
-        tools:layout_editor_absoluteX="228dp"
-        style="@style/Widget.Material3.CompoundButton.CheckBox"/>
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioButton8" />
 
     <RadioButton
         android:id="@+id/radioButton11"
+        style="@style/Widget.Material3.CompoundButton.CheckBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        android:layout_marginEnd="118dp"
         android:text="Soap"
-        app:layout_constraintTop_toBottomOf="@+id/radioButton10"
-        tools:layout_editor_absoluteX="228dp"
-        style="@style/Widget.Material3.CompoundButton.CheckBox"/>
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioButton10" />
 
     <RadioButton
         android:id="@+id/radioButton9"
+        style="@style/Widget.Material3.CompoundButton.CheckBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        android:layout_marginEnd="65dp"
         android:text="Extra Clothes"
-        app:layout_constraintTop_toBottomOf="@+id/radioButton7"
-        tools:layout_editor_absoluteX="228dp"
-        style="@style/Widget.Material3.CompoundButton.CheckBox"/>
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioButton7" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

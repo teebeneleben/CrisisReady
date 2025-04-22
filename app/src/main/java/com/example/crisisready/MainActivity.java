@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
 
             homeButton.setOnClickListener(v1 -> startActivity(new Intent(getApplicationContext(), emergencySafety.class)));
             homeButton2.setOnClickListener(v1 -> startActivity(new Intent(getApplicationContext(), firstAid.class)));
-            homeButton3.setOnClickListener(v1 -> startActivity(new Intent(getApplicationContext(), firstAid.class)));
+            homeButton3.setOnClickListener(v1 -> startActivity(new Intent(getApplicationContext(), Checklist.class)));
             homeButton5.setOnClickListener(v1 -> startActivity(new Intent(getApplicationContext(), UserProfile.class)));
 
             return insets;

@@ -2,4 +2,6 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="radioButtonChecked">#881313</color>
+    <color name="radioButtonUnchecked">#1E1E1E</color>
 </resources>
