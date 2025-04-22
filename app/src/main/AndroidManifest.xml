@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CrisisReady"
+        tools:targetApi="31">
+        <activity
+            android:name=".AddTips"
+            android:exported="false" />
+        <activity
+            android:name=".firstAid"
+            android:exported="false" />
+        <activity
+            android:name=".Bandage"
+            android:exported="false" />
+        <activity
+            android:name=".Burn"
+            android:exported="false" />
+        <activity
+            android:name=".Flood1"
+            android:exported="false" />
+        <activity
+            android:name=".Fire2"
+            android:exported="false" />
+        <activity
+            android:name=".Fire1"
+            android:exported="false" />
+        <activity
+            android:name=".Earthquake1"
+            android:exported="false" />
+        <activity
+            android:name=".emergencySafety"
+            android:exported="false" />
+        <activity
+            android:name=".Earthquake2"
+            android:exported="false" />
+        <activity
+            android:name=".UserProfile"
+            android:exported="false" />
+        <activity
+            android:name=".FirstAid"
+            android:exported="false"
+            android:theme="@style/Theme.CrisisReady" />
+        <activity
+            android:name=".EmergencyChecklist"
+            android:exported="false"
+            android:theme="@style/Theme.CrisisReady" />
+        <activity
+            android:name=".EmergencySafety"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

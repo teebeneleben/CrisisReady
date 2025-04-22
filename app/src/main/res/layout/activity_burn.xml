@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Burn">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="371dp"
+        android:layout_height="690dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.458"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/how_to_burn"
+        tools:layout_editor_absoluteY="-66dp" />
+
+    <ImageButton
+        android:id="@+id/leftButton8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/chevron_left"
+        android:src="@drawable/chevron_left"
+        app:layout_constraintStart_toStartOf="@id/imageView7"
+        tools:layout_editor_absoluteY="613dp"
+        tools:src="@drawable/chevron_left" />
+</androidx.constraintlayout.widget.ConstraintLayout>
